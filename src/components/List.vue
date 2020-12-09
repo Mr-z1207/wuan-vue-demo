@@ -1,14 +1,17 @@
 <template>
   <div class="list">
-    <div>
-      我是list。
-    </div>
+      
   </div>
 </template>
 
 <script>
   export default {
     name: 'List',
+    // data(){
+    //   return{
+    //     visible: false
+    //   }
+    // },
     props: {
 
     }
