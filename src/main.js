@@ -3,6 +3,18 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import { Button } from 'vant';
+import '@vant/touch-emulator';
 
-createApp(App).use(store).use(router).use(Button).mount('#app')
+import { Button, Field, Cell, CellGroup, Col, Row, SwipeCell  } from 'vant';
+
+createApp(App)
+.use(store)
+.use(router)
+.use(Button)
+.use(Field)
+.use(Cell)
+.use(CellGroup)
+.use(Col)
+.use(Row)
+.use(SwipeCell )
+.mount('#app')
