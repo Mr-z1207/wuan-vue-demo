@@ -5,7 +5,7 @@ import store from './store'
 
 import '@vant/touch-emulator';
 
-import { Button, Field, Cell, CellGroup, Col, Row, SwipeCell  } from 'vant';
+import { Button, Field, Cell, CellGroup, Col, Row, SwipeCell, Icon } from 'vant';
 
 createApp(App)
 .use(store)
@@ -16,5 +16,6 @@ createApp(App)
 .use(CellGroup)
 .use(Col)
 .use(Row)
-.use(SwipeCell )
+.use(SwipeCell)
+.use(Icon)
 .mount('#app')

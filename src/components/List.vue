@@ -1,6 +1,6 @@
 <template>
   <div class="list">
-    <ListItem v-for="(todos, index) in this.$store.state.todos" :todos="todos"></ListItem>
+    <ListItem v-for="(todos, index) in this.$store.state.todos" :todos="todos" :index="index"></ListItem>
   </div>
 </template>
 
