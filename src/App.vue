@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/toDoList">ToDoList</router-link>
+    <router-link :to="{ path: '/'}" replace>Home</router-link> |
+    <router-link :to="{ path: '/toDoList'}" replace>ToDoList</router-link>
   </div>
   <router-view/>
 </template>
