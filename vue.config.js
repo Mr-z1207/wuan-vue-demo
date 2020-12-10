@@ -5,7 +5,7 @@ function resolve(dir) {
 
 module.exports = {
   lintOnSave: false,
-  baseUrl:'/todolist/',
+  publicPath:'/todolist/',
   css: {
     loaderOptions: {
       less: {
